@@ -14,7 +14,6 @@ class Dog
 
   def self.print_all
     self.name.each do |name|
-      @@all << name
     end
   end
 end
